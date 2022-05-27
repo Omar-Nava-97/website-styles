@@ -1,0 +1,216 @@
+
+h1{
+    font-size: 50px;
+    font-family: 'monospace';
+    position: relative;
+}
+
+h2{
+    color: slateblue;
+    font-size: 45px;
+    font-weight: bold;
+    text-align: center;
+}
+
+h3{
+    text-align: center;
+    text-transform: uppercase;
+}
+
+div{
+    display: block;
+}
+
+.color-label{
+    font-size: 20px;
+}
+
+.color-panel{
+    border-radius: 35px;
+    background-color: black;
+    color: whitesmoke;
+    display: inline-block;
+    width: 33%;
+    text-align: center;
+    margin: 20px auto;
+    min-height: 100px;
+}
+
+#azul:hover{
+    background-color: #3A86FF;
+}
+
+#verde:hover{
+    background-color: #006D77;
+}
+
+#morado:hover{
+    background-color: #8338EC;
+}
+
+#naranja:hover{
+    background-color: #E07A5F;
+}
+
+#cafe:hover{
+    background-color: #6C584C;
+}
+
+#amarillo:hover{
+    background-color: #FFD166;
+}
+
+
+
+.container{
+    border: 1px solid transparent ;
+    margin: 10px auto;
+}
+
+.color-container{
+    width: 100%;
+}
+
+
+.desc{
+    font-size: 20px;
+    position: relative;
+    text-transform: uppercase;
+}
+
+.navbar{
+    background-color: whitesmoke;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.navbar li{
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 0 35px;
+}
+
+.navbar a {
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    font-size: 30px;
+}
+
+a:hover{
+    color: royalblue;
+    font-family: 'Tahoma';
+    text-transform: lowercase;
+}
+
+.banner{
+    background-image: url("./images/1.jpg");
+    background-size: cover;
+    color: whitesmoke;
+    margin-top: 50px;
+    text-align: center;
+    padding: 100px 0;
+    position: relative;
+    
+}
+.banner:before{
+    content: '';
+    position: absolute;
+    background-color: black;
+    opacity: .5;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.font-container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: left;
+}
+
+.font-panel{
+    padding: 7px;
+    margin: 20px 20px 20px 20px;
+    min-height: 100px;
+    min-width: 20%;
+    background-color: white;
+    font-size: 25px;
+    border-left: 2px solid black ;
+}
+
+.font1{
+    font-family: 'Roboto';
+}
+
+.bold{
+    font-weight: 900 !important;
+}
+
+.italic{
+    font-style: italic !important;
+}
+
+.font2{
+    font-family: 'Lato';
+}
+
+.font3{
+    font-family: 'Raleway'
+}
+
+.font4{
+    font-family: 'Inter';
+}
+
+.titulo{
+    font-size: 35px;
+}
+
+.centrar{
+    text-align: center;
+}
+
+.maximo{
+    font-size: 45px;
+}
+
+.mayuscula:hover{
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.minuscula:hover{
+    cursor: pointer;
+    text-transform: lowercase;
+}
+
+.subrayado:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.punteado:hover{
+    cursor: pointer;
+    text-decoration: overline;
+}
+
+.line:hover{
+    cursor: pointer;
+    text-decoration: line-through;
+}
+
+.centrar-div{
+    display: flex;
+    justify-content: center;
+
+}
+
+.boton{
+    height: 100px;
+    width: 300px;
+    margin-left: 3px;
+}
